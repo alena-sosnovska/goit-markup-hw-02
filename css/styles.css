@@ -28,6 +28,10 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
 .address-link {
   font-weight: 400;
   font-size: 16px;
@@ -35,8 +39,12 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
@@ -47,12 +55,16 @@ a {
   color: #fff;
 }
 .hero-button {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 .features-list-title {
   font-weight: 500;
@@ -69,5 +81,8 @@ a {
   color: #434455;
 }
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #fff;
 }
