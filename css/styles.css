@@ -6,6 +6,8 @@ body {
 
 ul {
   list-style-type: none;
+  margin-block: 0;
+  padding-left: 0;
 }
 
 a {
@@ -14,6 +16,21 @@ a {
 
 address {
   font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .section-title {
@@ -42,6 +59,10 @@ address {
 
 .accent {
   color: #4d5ae5;
+}
+.container {
+  display: flex;
+  gap: 10px;
 }
 
 /* --------------header------------ */
